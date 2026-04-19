@@ -12,7 +12,6 @@ import logging
 # Название репозитория = твой логин
 REPOSITORY_NAME = Path(__file__).parent.name.replace(".", "_")
 
-# Тема + задачи
 TASK = "etl1_t1"
 
 # Бакет S3
@@ -89,4 +88,4 @@ def pipeline():
     )
 
 
-pipeline() # что будет, если это не написать?
+pipeline()
