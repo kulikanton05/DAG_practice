@@ -10,7 +10,6 @@ import logging
 import io
 
 
-# Название репозитория = твой логин
 REPOSITORY_NAME = Path(__file__).parent.name.replace(".", "_")
 # Тема + задача
 TASK = "etl2_t3"
