@@ -8,7 +8,6 @@ import pandas as pd
 import logging
 
 
-# Название репозитория = Ваш логин
 REPOSITORY_NAME = Path(__file__).parent.name.replace(".", "_")
 # Тема + задача
 TASK = "etl2_t2"
